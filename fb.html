@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="outer">
+        <div class="head">
+            <div class="logo">
+                <p class="logo-text">facebook</p>
+            </div>
+            <div class="login">
+                <form>
+                    <table>
+                        <tr>
+                            <td><label class="editing-login">Email or Phone</label></td>
+                            <td><label class="editing-login">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input class="button" type="submit" value="Log in"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgo-login" href="https://www.facebook.com/login/identify">Forgotten account?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left">
+                <p class="left-text">Facebook helps you connect and share with<br> the people in your life.</p>
+                <img class="image"src="new.png">
+            </div>
+            <div class="right">
+                <p class="r1">Sign Up</p>
+                <p class="r2">It's free and always will be.</p>
+                <form id="signup">
+                    <input name='f'class="fname" type="text" placeholder="First name">
+                    <input name='l'class="lname" type="text" placeholder="Last name">
+                    <input name='email'class="ema" type="text" placeholder="Email">
+                    <input name='p'class="password" type="text" placeholder="New password">
+                    <br>
+                    <label class="bday">Birthday</label>
+                    <br>
+                    <select class="month" name="mon">
+                        <option value="">MONTH</option>
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                    </select>
+                    <select class="date" name="da" >
+                        <option value="">DATE</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="year" name="yr">
+                        <option value="">YEAR</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                    </select>
+                    <br>
+                    <label class="gen">Gender</label>
+                    <br>
+                    <input class="Radio"type="radio" name="gender">
+                    <label class="Gender">Male</label>
+                    <input type="radio" name="gender">
+                    <label class="Gender">Female</label>
+                    <br>
+                    <input class="create-butn" type="submit" value="Create Account">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

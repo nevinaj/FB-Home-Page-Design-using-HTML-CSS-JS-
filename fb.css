@@ -1,0 +1,184 @@
+.head{
+    background-color:#3b5998;
+    width:100%;
+    height: 100px;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+html,body,p{margin:0;padding:0}/*doubt*/
+.logo{
+    width:50%;
+    height: 100px;
+    box-sizing: border-box;
+    float:left;
+}
+.login{
+    width:50%;
+    height: 100px;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.forgo-login{
+    color: #9cb4d8;
+    font-size: 13px;
+    text-decoration: none;
+}
+.editing-login{
+    color: white;
+    font-size: 13px;
+}
+.button{
+    background-color: #4267b2;
+    border-color: #294873;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:gray;
+}
+.logo-text{
+    color: white;
+    font-size: 45px;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-left: 46px;/*u can give margin too.*/
+    padding-top: 29px;
+    font-weight: bold;
+}
+.main-body{
+    width: 100%;
+    height: 465px;
+    background:linear-gradient(white,#D3D8E8);
+}
+.left{
+    width: 55%;
+    height: 455px;
+    float: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+.right{
+    width: 45%;
+    height: 455px;
+    float: left;
+    box-sizing: border-box;
+}
+.image{
+    opacity: 0.8;
+    width:90%;
+    height: 285px;
+    padding-top: 13px;
+}
+.left-text{
+    padding-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+td{
+    padding-left: 15px;/*give spacing b/w columns of table.*/
+}
+.r1{
+    padding-left: 33px;
+    padding-top: 23px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.r2{
+    padding-left: 33px;
+    padding-top: 7px;
+    font-size: 22px;
+}
+label{
+    display: inline-block;
+}
+.fname{
+    width:220px;
+    margin-left: 33px;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 6px;
+    border: 3px solid gray;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.lname{
+    width: 220px;
+    height: 35px;
+    border-radius:6px ;
+    border-color: gray;
+    margin-left: 10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.ema{
+    width:440px;
+    margin-left: 33px;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.password{
+    width:440px;
+    margin-left: 33px;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 6px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.bday{
+    margin-left: 34px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.month{
+    margin-left: 34px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.date{
+    font-size: 20px;
+}
+.year{
+    font-size: 20px;
+}
+.bday-link{
+    text-decoration: none;
+    font-size: 12px;
+    float: left;
+}
+.Gender{
+    font-size: 20px;
+}
+.gen{
+    margin-left: 34px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.Radio{
+    margin-top: 10px;
+    margin-left: 34px;
+}
+.create-butn{
+    margin-left: 34px;
+    margin-top: 15px;
+    background-color:green;
+    color: white;
+    width: 170px ;
+    height: 35px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.create-butn:hover{
+    background-color:#294873;
+}
